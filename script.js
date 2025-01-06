@@ -72,6 +72,7 @@ document.querySelector('.again').addEventListener('click', function () {
 
   document.querySelector('.score').textContent = 20;
   document.querySelector('.message').textContent = 'Start guessing...';
+  document.querySelector('.between').textContent = `<Between 1 and 20>`;
   document.querySelector('.guess').value = '';
   document.querySelector('.difficulty').value = '';
   document.querySelector('.number').textContent = '?';
